@@ -1,0 +1,14 @@
+
+<div>
+  <div class="border-start border-5 ms-2 mb-4 p-3">
+    <p class="blockquote"><%= @question%></p>
+    <p class="blockquote-footer fst-italic">You</p>
+  </div>
+  <div class="border-start border-5 ms-2 mb-4 p-3 bg-warning p-2 text-dark bg-opacity-10">
+    <p class="blockquote fw-bold"><%= @answer%></p>
+    <p class="blockquote-footer fst-italic">Your coach</p>
+  </div>
+  <div class="p-2">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
